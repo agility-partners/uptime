@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsc",
     "test": "bun test",
-    "prepublish": "bun run build"
+    "prepublish": "bun run build",
+    "prepare": "bun run build"
   },
   "keywords": [
     "uptime",
