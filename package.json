@@ -1,0 +1,34 @@
+{
+  "name": "uptime",
+  "version": "1.0.0",
+  "description": "Simple SDK for Better Stack Uptime heartbeat monitoring",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublish": "bun run build"
+  },
+  "keywords": [
+    "uptime",
+    "monitoring",
+    "heartbeat",
+    "betterstack",
+    "bun"
+  ],
+  "author": "Andy Warns",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "bun": "^1.0.0"
+  }
+}
